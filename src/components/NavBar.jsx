@@ -4,25 +4,26 @@ import { Link, NavLink } from 'react-router-dom'
 
 const NavBar = () => {
     return (
-        <Flex as="nav" p="5px" alignItems="center" bg="blue.200" >
-            <Box w="80px"><img src={logo} alt='The logo of MUUGA' /></Box>
+        // <div>Hello</div>
+        <Flex as="nav" px="20px" py="5px" alignItems="center" bg="whiteAlpha.200" color="blue.300" fontWeight="bold">
+            <Box w="50px"><img src={logo} alt='The logo of MUUGA' /></Box>
             <Spacer />
 
             <HStack spacing="20px">
-                <Box bg="gray.200" p="10px">
-                    <NavLink to="/">Bienvenu</NavLink>
+                <Box p="10px">
+                    <NavLink to="joindre">Bienvenus</NavLink>
                 </Box>
-                <Box bg="gray.200" p="10px">
+                <Box p="10px">
                     <NavLink to="contactes">Contactes</NavLink>
                 </Box>
-                <Box bg="gray.200" p="10px">
-                    <NavLink to="donner">Donner</NavLink>
+                <Box p="10px">
+                    <NavLink to="donner">Soutien</NavLink>
                 </Box>
-                <Box bg="gray.200" p="10px">
+                <Box p="10px">
                     <NavLink to="blog">Blog</NavLink>
                 </Box>
-                <Box bg="gray.200" p="10px">
-                    <NavLink to="activites">Activites</NavLink>
+                <Box p="10px">
+                    <NavLink to="activites">Activités</NavLink>
                 </Box>
             </HStack>
         </Flex>

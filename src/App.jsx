@@ -13,13 +13,14 @@ import Activites from "./pages/Activites";
 import Contactes from "./pages/Contactes";
 import Faireundon from "./pages/Faireundon";
 import Blog from "./pages/Blog";
-import Mbolo from "./pages/Mbolo";
+import Mbolo from "./pages/Mbolosamba";
+import Joindre from "./pages/Joindre";
 
 // Router and routes
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
-      <Route index element={<Mbolo />} />
+      <Route path="joindre" element={<Joindre />} />
       <Route path="activites" element={<Activites />} />
       <Route path="contactes" element={<Contactes />} />
       <Route path="blog" element={<Blog />} />
@@ -31,7 +32,9 @@ const router = createBrowserRouter(
 function App() {
 
   return (
-    <RouterProvider router={router} />
+    <Box bg="gray.50">
+      <RouterProvider router={router} />
+    </Box>
   );
 }
 
