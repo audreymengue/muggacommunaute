@@ -11,19 +11,16 @@ const NavBar = () => {
 
             <HStack spacing="20px">
                 <Box p="10px">
-                    <NavLink to="joindre">Bienvenus</NavLink>
+                    <NavLink to="joindre">Mbolo Samba</NavLink>
                 </Box>
                 <Box p="10px">
-                    <NavLink to="contactes">Contactes</NavLink>
-                </Box>
-                <Box p="10px">
-                    <NavLink to="donner">Soutien</NavLink>
-                </Box>
-                <Box p="10px">
-                    <NavLink to="blog">Blog</NavLink>
+                    <NavLink to="donner">Faire un don</NavLink>
                 </Box>
                 <Box p="10px">
                     <NavLink to="activites">Activités</NavLink>
+                </Box>
+                <Box p="10px">
+                    <NavLink to="contactes">Contactes</NavLink>
                 </Box>
             </HStack>
         </Flex>
