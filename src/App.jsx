@@ -13,14 +13,14 @@ import Activites from "./pages/Activites";
 import Contactes from "./pages/Contactes";
 import Faireundon from "./pages/Faireundon";
 import Blog from "./pages/Blog";
-import Mbolo from "./pages/Mbolosamba";
 import Joindre from "./pages/Joindre";
+import Mbolosamba from "./pages/Mbolosamba";
 
 // Router and routes
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
-      <Route path="joindre" element={<Joindre />} />
+      <Route path="mbolosamba" element={<Mbolosamba />} />
       <Route path="activites" element={<Activites />} />
       <Route path="contactes" element={<Contactes />} />
       <Route path="blog" element={<Blog />} />

@@ -5,13 +5,13 @@ import { Link, NavLink } from 'react-router-dom'
 const NavBar = () => {
     return (
         // <div>Hello</div>
-        <Flex as="nav" position="fixed" w="100%" px="20px" py="5px" alignItems="center" bg="whiteAlpha.200" color="blue.300" fontWeight="bold">
+        <Flex as="nav" px="20px" py="5px" alignItems="center" bg="whiteAlpha.200" color="blue.300" fontWeight="bold">
             <Box w="50px"><img src={logo} alt='The logo of MUUGA' /></Box>
             <Spacer />
 
             <HStack spacing="20px">
                 <Box p="10px">
-                    <NavLink to="joindre">Mbolo Samba</NavLink>
+                    <NavLink to="mbolosamba">Mbolo Samba</NavLink>
                 </Box>
                 <Box p="10px">
                     <NavLink to="donner">Faire un don</NavLink>

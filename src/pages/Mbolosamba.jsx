@@ -7,6 +7,7 @@ import Banner from '../components/Banner'
 import AnimatedText from '../components/Animatedtext'
 import Cards from '../components/Cards'
 import AccordionComponent from '../components/Accordion'
+import Partners from '../components/Partners'
 
 const Mbolosamba = () => {
     return (
@@ -14,6 +15,7 @@ const Mbolosamba = () => {
             <Banner />
             <Cards />
             <AccordionComponent />
+            <Partners />
         </Flex>
     )
 }
