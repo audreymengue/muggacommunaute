@@ -13,7 +13,7 @@ import {
     useColorModeValue,
 } from '@chakra-ui/react'
 import { ReactNode } from 'react'
-import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { BiMailSend } from 'react-icons/bi'
 
 
@@ -65,14 +65,14 @@ export default function Footer() {
 
                         <Text fontSize={'sm'}>© 2023 Microsoft User Group Gabon.</Text>
                         <Stack direction={'row'} spacing={6}>
-                            <SocialButton label={'Twitter'} href={'#'}>
-                                <FaTwitter />
+                            <SocialButton label={'LinkedIn'} href={'https://www.linkedin.com/company/microsoft-user-group-gabon/'}>
+                                <FaLinkedin />
                             </SocialButton>
-                            <SocialButton label={'YouTube'} href={'#'}>
+                            <SocialButton label={'YouTube'} href={'https://www.youtube.com/@muggacommunaute'}>
                                 <FaYoutube />
                             </SocialButton>
-                            <SocialButton label={'Instagram'} href={'#'}>
-                                <FaInstagram />
+                            <SocialButton label={'Twitter'} href={'https://twitter.com/muggacommunaute'}>
+                                <FaTwitter />
                             </SocialButton>
                         </Stack>
                     </Stack>
@@ -90,10 +90,10 @@ export default function Footer() {
                     </Stack>
                     <Stack align={'flex-start'}>
                         <ListHeader>Liens faciles</ListHeader>
-                        <Box as="a" href={'#'}>
-                            Certification Gratuites
+                        <Box as="a" href={'https://experiences.microsoft.fr/calendrier-formations/'}>
+                            Formation Gratuites
                         </Box>
-                        <Box as="a" href={'#'}>
+                        <Box as="a" href={'https://www.microsoft.com/fr-fr/microsoft-learn'}>
                             Microsoft Learn
                         </Box>
                         <Box as="a" href={'#'}>

@@ -17,32 +17,26 @@ const AccordionComponent = () => {
                     <h2>
                         <AccordionButton>
                             <Box as="span" flex='1' textAlign='left'>
-                                Section 1 title
+                                Comment devenir membre de Microsoft User Group Gabon?
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
+                        C'est simple! Abonnez-vous a nos pages sur les reseaux sociaux, LinkedIn, X, WhatsApp etc...
                     </AccordionPanel>
                 </AccordionItem>
                 <AccordionItem >
                     <h2>
                         <AccordionButton>
                             <Box as="span" flex='1' textAlign='left'>
-                                Section 1 title
+                                Faut-il payer pour participer a un evenement?
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
+                        ABSOLUMENT TOUT nos evenements sont gratuits... Ne payez rien s'il vous plait. Et veuillez signaler si quelqu'un vous demande de payer.
                     </AccordionPanel>
                 </AccordionItem>
 
@@ -50,16 +44,26 @@ const AccordionComponent = () => {
                     <h2>
                         <AccordionButton>
                             <Box as="span" flex='1' textAlign='left'>
-                                Section 2 title
+                                Y'a t'il une limite d'age pour participer a un evenement?
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
+                        En presentiel, tous les mineurs doivent etre accompagnes d'un adulte mais ilk n y a pas de limite d'age pour les evenements en ligne
+                    </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                    <h2>
+                        <AccordionButton>
+                            <Box as="span" flex='1' textAlign='left'>
+                                Que dois-je faire pour apprendre des sessions que j'ai rate?
+                            </Box>
+                            <AccordionIcon />
+                        </AccordionButton>
+                    </h2>
+                    <AccordionPanel pb={4}>
+                        Pas de soucis! Toutes nos sessions seront sur notre chaine YouTube. Alors, abonnez-vous!
                     </AccordionPanel>
                 </AccordionItem>
             </Accordion>

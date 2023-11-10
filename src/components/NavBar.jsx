@@ -19,6 +19,9 @@ const NavBar = () => {
                 <Box p="10px">
                     <NavLink to="contactes">Contactes</NavLink>
                 </Box>
+                <Box p="10px">
+                    <NavLink to="directives">Directives</NavLink>
+                </Box>
             </HStack>
         </Flex>
     )
