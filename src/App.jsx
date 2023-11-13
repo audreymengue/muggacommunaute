@@ -12,11 +12,13 @@ import Activites from "./pages/Activites";
 import Contactes from "./pages/Contactes";
 import Faireundon from "./pages/Faireundon";
 import Directives from "./pages/Directives";
+import Mbolosamba from "./pages/Mbolosamba";
 
 // Router and routes
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
+      <Route index element={<Mbolosamba />} />
       <Route path="activites" element={<Activites />} />
       <Route path="don" element={<Faireundon />} />
       <Route path="contactes" element={<Contactes />} />

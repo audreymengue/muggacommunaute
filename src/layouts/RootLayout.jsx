@@ -11,7 +11,7 @@ const RootLayout = () => {
             <Flex direction="column">
                 <NavBar />
                 <Divider orientation='horizontal' />
-                <Mbolosamba />
+                {/* <Mbolosamba /> */}
             </Flex>
             <main>
                 <Outlet />
