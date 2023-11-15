@@ -20,7 +20,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Mbolosamba />} />
       <Route path="activites" element={<Activites />} />
-      <Route path="don" element={<Faireundon />} />
+      <Route path="donner" element={<Faireundon />} />
       <Route path="contactes" element={<Contactes />} />
       <Route path="directives" element={<Directives />} />
 
