@@ -12,29 +12,29 @@ const Faireundon = () => {
                     <Text>View a summary of all your customers over the last month.</Text>
                 </CardBody>
                 <CardFooter>
-                    <Button colorScheme='blue'>Donner</Button>
+                    <Button colorScheme='blue'><a href="https://forms.office.com/r/03Db1Dq1BU" target="_blank" rel="noreferrer">Donner</a></Button>
                 </CardFooter>
             </Card>
             <Card align='center' m="4rem">
                 <CardHeader>
-                    <Heading size='md'> Sponsoriser la sono d'un evenement</Heading>
+                    <Heading size='md'> Devenir talkeur ou talkeuse</Heading>
                 </CardHeader>
                 <CardBody>
                     <Text>View a summary of all your customers over the last month.</Text>
                 </CardBody>
                 <CardFooter>
-                    <Button colorScheme='blue'>Donner</Button>
+                    <Button colorScheme='blue'><a href="https://forms.office.com/r/buGwttRJnC" target="_blank" rel="noreferrer">Formulaire</a></Button>
                 </CardFooter>
             </Card>
             <Card align='center' m="4rem">
                 <CardHeader>
-                    <Heading size='md'> Sponsoriser des Swags ( T-Shirts, Tasses etc...)</Heading>
+                    <Heading size='md'> Sponsoriser un evenement</Heading>
                 </CardHeader>
                 <CardBody>
                     <Text>View a summary of all your customers over the last month.</Text>
                 </CardBody>
                 <CardFooter>
-                    <Button colorScheme='blue'>Donner</Button>
+                    <Button colorScheme='blue'><a href="https://forms.office.com/r/s5JEKaMpCs" target="_blank" rel="noreferrer">Formulaire</a></Button>
                 </CardFooter>
             </Card>
             <Card align='center' m="4rem">
@@ -45,7 +45,7 @@ const Faireundon = () => {
                     <Text>View a summary of all your customers over the last month.</Text>
                 </CardBody>
                 <CardFooter>
-                    <Button colorScheme='blue'>Donner</Button>
+                    <Button colorScheme='blue'><a href="https://forms.office.com/r/s5JEKaMpCs" target="_blank" rel="noreferrer">Formulaire</a></Button>
                 </CardFooter>
             </Card>
             <Card align='center' m="4rem">
