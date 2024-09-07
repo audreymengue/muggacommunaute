@@ -1,0 +1,17 @@
+.gradient-background {
+    background: linear-gradient(135deg, #16a630, #179374); /* A basic gradient from orange to peach */
+    padding: 20px;
+    color: white;
+    border-radius: 10px; /* Optional rounded corners */
+    text-align: center;
+  }
+  
+  .gradient-background h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .gradient-background p {
+    margin-top: 10px;
+  }
+  
