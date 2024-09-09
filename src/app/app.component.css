@@ -1,17 +1,45 @@
 .gradient-background {
-    background: linear-gradient(135deg, #16a630, #179374); /* A basic gradient from orange to peach */
-    padding: 20px;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(121,102,9,1) 35%, rgba(0,212,255,1) 100%);
     color: white;
-    border-radius: 10px; /* Optional rounded corners */
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
   
-  .gradient-background h1 {
+  .gradient-background h1, h2{
     margin: 0;
-    font-size: 2em;
+    font-size: 1.5em;
+    margin-right: 100px;
+  font-family: "Merriweather Sans", sans-serif;
   }
   
   .gradient-background p {
     margin-top: 10px;
   }
   
+  .logo-picture {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-top: 50px;
+  }
+
+  .text-class {
+    color: white;
+    font-size: 1.5em;
+    padding-top: 100px;
+  }
+
+  button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-right: 50px;
+    cursor: pointer;
+  }
