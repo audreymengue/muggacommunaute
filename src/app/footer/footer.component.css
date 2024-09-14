@@ -1,0 +1,54 @@
+.footer-main {
+    background-color: #3A75C3;
+    display: flex;
+    gap: 5rem;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    padding-top: 20px;
+    line-height: 1.5rem;
+}
+
+.footer-main h3{
+    color: #F6F5F5;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.footer-main p{
+    color: #F6F5F5;
+    margin-bottom: 10px;
+}
+
+.footer-main img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer-main .navigation , .nos-contactes, .reseau-sauciaux{
+    line-height: 1.8rem;
+}
+
+.footer-main .navigation ul li, .nos-contactes ul li{
+    list-style: none;
+}
+
+.footer-main .navigation ul li a, .nos-contactes ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #F6F5F5;
+
+}
+
+.footer-main i {
+    margin-right: 10px;
+    /* color: #FFB901; */
+    color: #F6F5F5;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.footer-main .reseau-sauciaux a i {
+    font-size: 2rem;
+}
