@@ -52,3 +52,33 @@
 .footer-main .reseau-sauciaux a i {
     font-size: 2rem;
 }
+
+.footer-bottom {
+    background-color: #3A75C3;
+    color: #F6F5F5;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-main {
+        flex-direction: column;
+        height: auto;
+    }
+    .footer-main img {
+        display: none;
+    }
+
+    .footer-main h3 {
+        padding-top: 0;
+    }
+
+    .footer-main img {
+        margin-bottom: 20px;
+    }
+
+    .footer-main .navigation, .nos-contactes, .reseau-sauciaux {
+        margin-bottom: 20px;
+    }
+    
+}
